@@ -1,7 +1,6 @@
-import { View, Text, Button, TextInput, FlatList, SectionList } from 'react-native';
-import { Image } from 'react-native';
-import { useState } from 'react';
 import { router } from 'expo-router';
+import { useState } from 'react';
+import { Button, Image, Text, TextInput, View } from 'react-native';
 export default function LoginScreen() {
   const [login, setLogin] = useState(false);
   return (
